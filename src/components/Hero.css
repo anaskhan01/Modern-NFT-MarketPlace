@@ -1,0 +1,86 @@
+.topfold {
+    height: 92vh;
+    overflow: hidden;
+}
+
+.tf-left {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding-right: 48px;
+}
+
+.tf-heading {
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 72px;
+}
+
+.tf-description {
+    font-size: 20px;
+    margin: 24px 0px;
+}
+
+.tf-left-btns {
+    margin-top: 10px;
+    display: flex;
+}
+
+.tf-left-secondary-btn {
+    margin-left: 36px;
+}
+
+.tf-right {
+    display: flex;
+    flex: 1;
+    position: relative;
+}
+
+.tf-right-diamond {
+    display: flex;
+    flex-wrap: wrap;
+    transform: rotate(45deg);
+}
+
+.tf-r-diamond-item {
+    height: 280px;
+    overflow: hidden;
+    margin: 0rem;
+    transform: rotate(-45deg);
+}
+
+.tf-r-diamond-item img {
+    height: 160px;
+    height: 160px;
+    object-fit: contain;
+    display: block;
+}
+
+.heading-gradient-2 {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(to right, #00416a, #e4e5e6);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.WaveBg {
+    background-image: url('https://blog.valuart.com/wp-content/uploads/2021/07/NFT-Bored-Ape.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    height: 300px;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.9);
+}
+
+.text-gradient-6 {
+    background: -webkit-linear-gradient(#c407fd, #007172);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 5px;
+    color: black;
+    text-transform: uppercase;
+}
